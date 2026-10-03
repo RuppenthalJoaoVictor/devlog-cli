@@ -1,0 +1,44 @@
+{
+  "name": "devlog-cli",
+  "version": "0.1.0",
+  "description": "CLI em TypeScript para registrar sessões de estudo e gerar relatórios de progresso.",
+  "type": "module",
+  "bin": {
+    "devlog": "dist/index.js"
+  },
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "dev": "tsx src/index.ts",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "cli",
+    "typescript",
+    "study-log",
+    "productivity",
+    "portfolio"
+  ],
+  "author": "João Victor Amaral Ruppenthal",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.20.5",
+    "tsx": "^4.23.15",
+    "typescript": "^5.9.3",
+    "vite": "^8.3.2",
+    "vitest": "^5.0.3"
+  },
+  "dependencies": {
+    "commander": "^12.1.0",
+    "zod": "^3.24.1"
+  }
+}

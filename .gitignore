@@ -1,0 +1,24 @@
+node_modules/
+dist/
+*.tsbuildinfo
+
+# Dados locais do devlog
+.devlog/
+sessions.json
+*.tmp
+
+# Ambiente
+.env
+.env.*
+!.env.example
+
+# Editores e SO
+.vscode/
+.idea/
+.DS_Store
+coverage/
+Thumbs.db
+
+# npm
+npm-debug.log*
+.npmrc
