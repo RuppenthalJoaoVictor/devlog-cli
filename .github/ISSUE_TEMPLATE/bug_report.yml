@@ -1,0 +1,35 @@
+---
+name: Bug report
+about: Relata um comportamento incorreto
+title: "[Bug] "
+labels: bug
+assignees: ''
+---
+
+## 🐛 Descrição
+
+<!-- O que aconteceu? -->
+
+## ✅ Comportamento esperado
+
+<!-- O que deveria ter acontecido? -->
+
+## 🔁 Passos para reproduzir
+
+1.
+2.
+3.
+
+## 📋 Ambiente
+
+- **Sistema operacional**: <!-- ex.: Ubuntu 24.04 -->
+- **Versão do Node.js**: <!-- ex.: v22.14.0 -->
+- **Commit**: <!-- git rev-parse --short HEAD -->
+
+## 📸 Evidências
+
+<!-- Saída do terminal, stack trace. -->
+
+```
+
+```
