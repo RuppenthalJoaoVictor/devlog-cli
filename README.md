@@ -1,5 +1,6 @@
 # devlog
 
+![CI](https://github.com/RuppenthalJoaoVictor/devlog-cli/actions/workflows/ci.yml/badge.svg)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.9-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![Node](https://img.shields.io/badge/Node-20%2B-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![Tests](https://img.shields.io/badge/tests-42%20passing-brightgreen?style=for-the-badge)
